@@ -1,0 +1,54 @@
+/* Container styling */
+.search-bar {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white; /* White background to stand out */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* React Select container styling */
+.react-select__control {
+  border: 2px solid #f76c6c;
+  box-shadow: none;
+  border-radius: 10px;
+  background: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.react-select__control--is-focused {
+  border-color: #f76c6c;
+  box-shadow: 0 0 0 2px rgba(247, 108, 108, 0.4);
+}
+
+.react-select__menu {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.react-select__option {
+  background-color: #fff;
+  color: #333;
+}
+
+.react-select__option--is-focused {
+  background-color: #f76c6c;
+  color: #fff;
+}
+
+.react-select__placeholder {
+  color: #aaa;
+}
+
+.react-select__single-value {
+  color: #333;
+}
+
+/* Add smooth transition effects */
+.react-select__control,
+.react-select__menu {
+  transition: all 0.3s ease;
+}
